@@ -1,0 +1,14 @@
+/*/footer/*/
+footer{
+    width: 90%;
+	margin: 0 auto;
+    background-color:lightskyblue;
+    display: flex;
+    justify-content: space-evenly;
+    
+    .footer-redes {
+    align-items: center;
+    justify-content: flex-end;
+    padding: 5px;
+}
+}

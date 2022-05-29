@@ -1,0 +1,25 @@
+/*/mediaquerys/*/
+@media (max-width:900px){
+    
+    .div-card{
+        display: grid;
+        background-color: lightblue;
+    }
+    nav{
+        float: inherit;
+        transition: all 1s;  
+    }
+    
+    .contenedor{
+        grid-template-columns: 200px;
+
+        grid-template:
+        "header main aside"
+    }
+}
+
+@media (max-width:500px){
+    .div-card{
+        background-color: lightblue;
+    }
+}
